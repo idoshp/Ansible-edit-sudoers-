@@ -1,0 +1,5 @@
+---
+
+- name: Update sudoers file
+  lineinfile: dest=/etc/sudoers regexp='{{ SUDO_USER }}' state=absent
+

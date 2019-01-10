@@ -1,0 +1,4 @@
+---
+
+- name: Update sudoers file
+  lineinfile: dest=/etc/sudoers line='{{ SUDO_USER }}'

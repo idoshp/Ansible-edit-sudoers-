@@ -1,0 +1,3 @@
+---
+# tasks file for remove user from sudoers
+- import_tasks: sudoers_remove_user.yml

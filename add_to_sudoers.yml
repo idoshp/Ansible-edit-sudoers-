@@ -1,0 +1,7 @@
+---
+- hosts: NOC
+  remote_user: biscuser
+  become: yes
+  become_method: sudo
+  roles:
+  - add_sudoers
