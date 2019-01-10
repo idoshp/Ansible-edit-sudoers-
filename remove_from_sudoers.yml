@@ -1,5 +1,5 @@
 ---
-- hosts: NOC
+- hosts: %hosts group define in your inventory%
   remote_user: biscuser
   become: yes
   become_method: sudo
