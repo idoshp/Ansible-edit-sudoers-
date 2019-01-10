@@ -9,7 +9,10 @@
 #### prerequisites
 
 - Ansible Installed >v2.4.
-- create inventory file with your target server.
+- create inventory file with your target server with a group tag:
+-  [my_hosts]
+-  server1
+- update the two playbooks with the hosts tag name - replace the string in %%
 - populate ssh key from your ansible server to all target servers.
 
 #### execute via cli
