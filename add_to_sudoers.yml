@@ -1,6 +1,6 @@
 ---
 - hosts: %hosts group define in your inventory%
-  remote_user: biscuser
+  remote_user: ansible
   become: yes
   become_method: sudo
   roles:
