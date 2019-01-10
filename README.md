@@ -17,5 +17,5 @@
 
 #### execute via cli
 
-- add a new user: ansible-playbook -i your_inventory_file add_to_sudoers.yml -e "SUDO_USER='you_new_user"
+- add a new user: ansible-playbook -i your_inventory_file add_to_sudoers.yml -e "SUDO_USER='your_new_user"
 - remove a user: ansible-playbook -i your_inventory_file remove_from_sudoers.yml --extra-var "SUDO_USER='user_to_remove'"
